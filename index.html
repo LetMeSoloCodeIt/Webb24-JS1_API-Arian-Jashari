@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="sv">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>The Random User site</title>
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body> <!-- Container för hela min interface där personerna visas -->
+    <div class="container">
+        <h1>Click for random person!</h1>
+        <!-- Knappen som hämtar all data om personerna från API när man klickar-->
+        <button id="userbutton">Reveal person!</button>
+        <!-- Här hanteras bilden på användaren och texten för information -->
+        <div id="userInfo" class="hidden">
+            <img id="userImage" alt="User Image">
+            <p id="name"></p>
+            <p id="gender"></p>
+            <p id="email"></p>
+            <p id="phone"></p>
+        </div>
+    </div>
+
+     <!-- Länkar till javascript filen-->
+    <script src="js/script.js"></script>
+</body>
+</html>

@@ -1,0 +1,54 @@
+body {
+    /* Style för bodyn */
+    font-family: Arial, sans-serif;
+    display: flex;
+    justify-content: center;
+    height: 60vh;
+    background-color: #bbbdbd;
+}
+
+.container {
+    /* Ändrar stylen i containern */
+    text-align: center;
+    background: rgb(249, 250, 250);
+    padding: 10px;
+    border-radius: 3px;
+    box-shadow: 0 0 10px
+}
+
+button {
+    /* Ändrar style för knappen */
+    padding: 20px 20px;
+    font-size: 16px;
+    cursor: pointer;
+    background-color: #007BFF;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    margin-bottom: 20px;
+    margin-top: 20px;
+}
+
+button:hover {
+    background-color: #0056b3;
+}
+
+#userInfo {
+    /* Ändrar specifikt style för personernas information */
+    font-size: 20px;
+    color: rgb(8, 8, 8);
+    font-weight: bold;
+    text-shadow: 1px 1px  rgb(61, 61, 61);
+}
+
+
+#userInfo img {
+    /* Ändrar style för profilbilderna */
+    border-radius: 10%;
+    margin-bottom: 20px;
+}
+
+.hidden {
+    /* Gömmer elementet tills javaScript visar det */
+    display: none;
+}
